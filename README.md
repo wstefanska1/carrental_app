@@ -6,13 +6,14 @@ GoCar to mobilna aplikacja umożliwiająca wypożyczanie samochodów. Użytkowni
 
 
 <h2>Technologie</h2>
-
+<br />
 - <b>React Native</b> 
 - <b>Python, Flask</b>
 - <b>SQLite</b>
 
-<h2>Zrealizowane funkcjonalności</h2>
 
+<h2>Zrealizowane funkcjonalności</h2>
+<br />
 <b>Baza danych</b>
 
 Zaprojektowanie i inicjalizacja bazy SQLite z trzema tabelami: User, CarList i RentalHistory (powiązane kluczami obcymi).
@@ -29,7 +30,9 @@ Podłączenie aplikacji do API – ekran logowania, lista samochodów (CarListSc
 
 Strona wyświetlająca dane zalogowanego użytkownika, pobierane automatycznie przez hook useEffect z endpointu get_user_profile.
 
+
 <h2>Demo</h2>
+<br />
 
 <div align="center">
 
