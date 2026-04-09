@@ -12,7 +12,7 @@ GoCar to mobilna aplikacja umożliwiająca wypożyczanie samochodów. Użytkowni
 - <b>SQLite</b>
 
 
-<h2>Zrealizowane funkcjonalności</h2>
+<h2>Zrealizowane funkcjonalności (moje kontrybucje)</h2>
 
 <b>Baza danych</b>
 
