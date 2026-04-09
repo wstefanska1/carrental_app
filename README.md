@@ -2,6 +2,7 @@
 
 <h2>Opis</h2>
 <br />
+GoCar to mobilna aplikacja umożliwiająca wypożyczanie samochodów. Użytkownik może zalogować się na swoje konto, przeglądać listę dostępnych pojazdów oraz wypożyczyć wybrany samochód. 
 
 
 <h2>Technologie</h2>
@@ -30,7 +31,7 @@ Strona wyświetlająca dane zalogowanego użytkownika, pobierane automatycznie p
 
 <h2>Demo</h2>
 
-<p align="center">
+<div align="center">
 
 Login screen: <br/>
 <img width="438" height="888" alt="Login" src="https://github.com/user-attachments/assets/ca996750-778f-4f48-b986-f41a2108f310" />
@@ -52,7 +53,7 @@ Booking history: <br/>
 <img width="441" height="908" alt="Bookings" src="https://github.com/user-attachments/assets/4e41129e-0d41-4577-99fc-e2b7ff71b96c" />
 <br />
 
-</p>
+</div>
 
 
 
