@@ -1,66 +1,95 @@
 <h1>Car Rental App - GoCar</h1>
 
-<h2>Opis</h2>
+<p>
+A full-stack car rental system with backend API, database layer, and mobile client integration.
+</p>
 
-GoCar to mobilna aplikacja umożliwiająca wypożyczanie samochodów. Użytkownik może zalogować się na swoje konto, przeglądać listę dostępnych pojazdów oraz wypożyczyć wybrany samochód. 
+<p>
+GoCar is a full-stack car rental system consisting of a mobile application, REST API backend, and SQLite database.
+It supports user authentication, vehicle browsing, and rental management.
+</p>
 
-
-<h2>Technologie</h2>
+<h2>Technologies</h2>
 
 - <b>React Native</b> 
 - <b>Python, Flask</b>
 - <b>SQLite</b>
 
+<h2>Architecture</h2>
 
-<h2>Zrealizowane funkcjonalności (moje kontrybucje)</h2>
+<p>
+The system follows a client-server architecture with a RESTful API connecting the mobile frontend and the database layer.
+</p>
 
-<b>Baza danych</b>
+<p>
+Mobile App (React Native) ↔ REST API (Flask) ↔ SQLite Database
+</p>
 
-Zaprojektowanie i inicjalizacja bazy SQLite z trzema tabelami: User, CarList i RentalHistory (powiązane kluczami obcymi).
+<h2>System Components</h2>
 
-<b>Backend w Pythonie (Flask)</b>
+<b>Database</b>
 
-Stworzenie lokalnego serwera Flask z trzema endpointami: logowanie użytkownika (login), pobieranie dostępnych aut (get_available_cars) oraz obsługa wypożyczenia (rent_car).
+<p>
+Designed and initialized a SQLite database with three tables: User, CarList, and RentalHistory, connected via foreign key relationships.
+</p>
 
-<b>Integracja z aplikacją mobilną</b>
+<b>Backend (Python, Flask)</b>
 
-Podłączenie aplikacji do API – ekran logowania, lista samochodów (CarListScreen) oraz funkcja wypożyczenia (RentCar) komunikują się z odpowiednimi endpointami w backendzie.
+<p>
+Developed a local Flask server providing REST API endpoints for user authentication (login), retrieving available cars (get_available_cars), and handling car rentals (rent_car).
+</p>
 
-<b>Profil użytkownika (UserProfile)</b>
+<p>
+The API supports communication between the mobile application and the database layer.
+</p>
 
-Strona wyświetlająca dane zalogowanego użytkownika, pobierane automatycznie przez hook useEffect z endpointu get_user_profile.
+<b>Mobile App Integration</b>
 
+<p>
+Integrated the mobile application with the backend API. The login screen, car listing (CarListScreen), and rental functionality (RentCar) communicate with corresponding endpoints.
+</p>
 
-<h2>Demo</h2>
+<b>User Profile</b>
+
+<p>
+Implemented a user profile screen displaying logged-in user data, retrieved automatically via a useEffect hook from the get_user_profile endpoint.
+</p>
+
+<h2>Key Features</h2>
+
+<ul>
+  <li>User authentication system</li>
+  <li>Car browsing and rental management</li>
+  <li>REST API communication between frontend and backend</li>
+  <li>Relational database design using SQLite</li>
+</ul>
+
+<h2>Application Demo</h2>
 
 <div align="center">
 
-Login screen: 
+Login screen:
 <br/>
 <img width="438" height="888" alt="Login" src="https://github.com/user-attachments/assets/ca996750-778f-4f48-b986-f41a2108f310" />
 <br />
 
-Car List: 
+Car list:
 <br/>
 <img width="410" height="849" alt="CarList" src="https://github.com/user-attachments/assets/a6763d96-93d3-4dff-bc39-3ff96c1f9ac7" />
 <br />
 
-Rental Screen: 
+Rental screen:
 <br/>
 <img width="939" height="957" alt="Rent" src="https://github.com/user-attachments/assets/9dbf9024-76a1-4528-b0e5-716a82817982" />
 <br />
 
-Cart: 
+Cart:
 <br/>
 <img width="432" height="900" alt="Cart" src="https://github.com/user-attachments/assets/0798790f-478a-4371-81b5-ab885d9a10c1" />
 <br />
 
-Booking history: 
+Booking history:
 <br/>
 <img width="441" height="908" alt="Bookings" src="https://github.com/user-attachments/assets/4e41129e-0d41-4577-99fc-e2b7ff71b96c" />
-<br />
 
 </div>
-
-
-
